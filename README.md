@@ -122,11 +122,6 @@
         function calculateForex() {
             const balance = parseFloat(document.getElementById('forex-balance').value);
 
-£, [1/25/2025 9:05 AM]
-const risk = parseFloat(document.getElementById('forex-risk').value) / 100;
-            const stopLoss = parseFloat(document.getElementById('forex-stoploss').value);
-            const takeProfit = parseFloat(document.getElementById('forex-takeprofit').value);
-
             if (isNaN(balance)  isNaN(risk)  isNaN(stopLoss) || isNaN(takeProfit)) {
                 document.getElementById('forex-output').textContent = "Please fill in all fields!";
                 return;
